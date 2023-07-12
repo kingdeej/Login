@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+}
+.App{
+    height: 100dvh;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #B7F4F8 0%, rgba(77, 244, 255, 0.67) 100%);
+    height: 100%;
+    .login-wrapper{
+        width: min(800px, 100% - 1.5rem * 2);
+        max-width: 800px !important;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.77) 100%);
+        box-shadow: 14px 14px 25px 8px rgba(0, 0, 0, 0.25);
+        .input-wrapper{
+            padding: 5rem 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            input{
+                height: 3.5rem;
+                padding-inline: 1rem;
+                outline: none;
+                border: 2px solid #D9D9D9;
+                border-radius: 10px;
+            }
+        }
+        .button-wrapper{
+            display: flex;
+            padding: 0rem 3rem 5rem 3rem;
+            gap: 1rem;
+            button{
+                width: 100%;
+                height: 3rem;
+                border-radius: 10px;
+                border: none;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            .login-btn{
+                color: #44B3BA;
+                background-color: white;
+            }
+            .signup-btn{
+                color: white;
+                background-color: #44B3BA;
+            }
+        }
+    }
+}
