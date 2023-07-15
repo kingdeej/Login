@@ -23,6 +23,10 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.77) 100%);
   box-shadow: 14px 14px 25px 8px rgba(0, 0, 0, 0.25);
 }
+.login .login-wrapper h3 {
+  text-align: center;
+  color: rgb(45, 45, 45);
+}
 .login .login-wrapper .input-wrapper {
   padding: 5rem 3rem;
   display: flex;

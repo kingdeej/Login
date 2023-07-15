@@ -14,6 +14,10 @@
     background: linear-gradient(90deg, #B7F4F8 0%, rgba(77, 244, 255, 0.67) 100%);
     height: 100%;
     .login-wrapper{
+        h3{
+            text-align: center;
+            color: rgb(45, 45, 45);
+        }
         width: min(800px, 100% - 1.5rem * 2);
         max-width: 800px !important;
         border-radius: 10px;
